@@ -1,5 +1,5 @@
 Authors of the Project : 
-Ahmad Raza Jamal & Paul Zapote
+Ahmad Raza Jamal
 
 All the features that are integrated into the project fully work and have been tested multiple times with different test cases. 
 
