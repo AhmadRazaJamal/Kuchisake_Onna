@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+
+<html>
+
+    <script src='https://fonts.googleapis.com/css?family=Denk+One'></script>
+    <script src='http://use.edgefonts.net/de-walpergens-pica.js'></script>
+    <!----Imports font style-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='http://use.edgefonts.net/astloch.js'></script>
+    <!----Imports JQuery functions-->
+
+<style>
+
+#loginVideo{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.block1{
+    position: absolute ; 
+    border: 2px transparent solid ;
+    background-color : rgba(255, 255, 255,0.0) ;
+    border-radius: 5%; 
+    width: 600px ; 
+    height: 500px ; 
+    left: 37vw ; 
+    top: 10vh ; 
+}
+
+.submitAnswerB{
+    position: absolute;
+    border-radius: 5px ; 
+    display: block ; 
+    padding: 10px;
+    font-family:de-walpergens-pica ;
+    width:15.2% ;  
+    font-size: 16px;
+    background:grey ; 
+    color: azure;
+    left: 835px;
+    top: 750px;
+}
+
+.phoneKeys{
+    width : 120px ; 
+    height : 120px ;
+    border: 5px black solid ;
+    border-radius: 50%;   
+}
+
+.answer1{
+    position: relative;
+    left: 27.5vw; 
+    top: 80vh ; 
+    border-radius: 5px ; 
+    display: block ; 
+    padding: 20px;
+    font-family: 'Denk One', sans-serif;  
+    border:2px transparent solid; 
+    outline: 0 ; 
+    background: black;
+    opacity: 0.9;
+    width:42.6%;
+    font-size: 15px;
+    color: azure; 
+}
+
+
+.answer{
+    position: relative;
+    left: 18vw; 
+    top: 82.5vh ; 
+    color: transparent ; 
+    text-shadow: 0 0 1px rgba(255, 0, 0, 0.788);
+    font-family: 'Denk One', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2em;
+    position: absolute ; 
+    margin-left: -180px;
+    animation-name: horror;
+    animation-duration: 5s;
+    animation-iteration-count: infinite ;
+}
+
+#answer2{
+    position: relative;
+    color: transparent ; 
+    text-shadow: 0 0 1px rgba(255, 0, 0, 0.788);
+    font-family: 'Denk One', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    position: absolute ; 
+    margin-left: -180px;
+    animation-name: horror2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite ;
+}
+
+#puzzle1{
+    font-family: 'Denk One', sans-serif; 
+    position: relative;
+    letter-spacing: 4px;
+    font-size: 40px;
+    color: azure; ;
+    text-shadow: 1px 1px 2px black ; 
+    
+}
+
+@keyframes horror{ /*Animation effect for text*/ 
+
+    0% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.1);; left: 19vw; top: 82.5vh;}
+    5% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.2);; left: 18vw; top: 82.5vh;}
+    10% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);; left: 18vw; top: 83vh;}
+    15% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.4);; left: 19vw; top: 83.5vh;}
+    16% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);; left: 18vw; top: 82vh;}
+    17% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.6);; left: 18vw; top: 82.5vh;}
+    18% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.7);; left: 19vw; top: 82.56vh;}
+    19% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);; left: 20vw; top: 82.5vh;}
+    20% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.9);; left: 19vw; top: 83vh;}
+    25% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);; left: 18vw; top: 83.5vh;}
+    30% {text-shadow: 0 0 10px rgba(255, 0, 0, 1);; left: 19vw; top: 82vh;}
+    34% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.6);; left: 20vw; top: 82.5vh;}
+    35% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);; left: 17vw; top: 82.5vh;}
+    40% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.4);; left: 16vw; top: 82.5vh;}
+    50% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.8);; left: 16vw; top: 83vh;}
+    55% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.2);; left: 17vw; top: 83vh;}
+    56% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.1);; left: 17vw; top: 83.5vh;}
+    57% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.2);; left: 18vw; top: 82vh;}
+    60% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.4);; left: 19vw; top: 82vh;}
+    65% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);; left: 19vw; top: 82vh;}
+    70% {text-shadow: 0 0 5px rgba(255, 0, 0, 1);; left: 19.5vw; top: 83vh;}
+    80% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.7);; left: 20vw; top: 83.5vh;}
+    90% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.6);; left: 18vw; top: 82vh;}
+    90% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);; left: 17vw; top: 82vh;}
+    100% {text-shadow: 0 0 10px rgba(255, 0, 0, 1);; left: 17vw; top: 82.5vh;}
+    
+}
+
+@keyframes horror2{ /*Animation effect for text*/ 
+
+0% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.1);; left: 30vw; top: 72.5vh;}
+5% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.2);; left: 41vw; top: 72.5vh;}
+10% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);; left: 42vw; top: 73vh;}
+15% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.4);; left: 43vw; top: 73.5vh;}
+16% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);; left: 44vw; top: 72vh;}
+17% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.6);; left: 44vw; top: 72.5vh;}
+18% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.7);; left: 45vw; top: 72.56vh;}
+19% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);; left: 43vw; top: 72.5vh;}
+20% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.9);; left: 49vw; top: 73vh;}
+25% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);; left: 48vw; top: 73.5vh;}
+30% {text-shadow: 0 0 10px rgba(255, 0, 0, 1);; left: 40vw; top: 72vh;}
+34% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.6);; left: 40vw; top: 72.5vh;}
+35% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);; left: 47vw; top: 72.5vh;}
+40% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.4);; left: 46vw; top: 72.5vh;}
+50% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.8);; left: 46vw; top: 73vh;}
+55% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.2);; left: 47vw; top: 73vh;}
+56% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.1);; left: 47vw; top: 73.5vh;}
+57% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.2);; left: 48vw; top: 72vh;}
+60% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.4);; left: 49vw; top: 72vh;}
+65% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);; left: 49vw; top: 72vh;}
+70% {text-shadow: 0 0 5px rgba(255, 0, 0, 1);; left: 49.5vw; top: 73vh;}
+80% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.7);; left: 40vw; top: 72.5vh;}
+90% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.6);; left: 48vw; top: 72vh;}
+90% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);; left: 47vw; top: 72vh;}
+100% {text-shadow: 0 0 10px rgba(255, 0, 0, 1);; left: 47vw; top: 72.5vh;}
+
+}
+
+</style>
+
+<head>
+    
+    <title>
+
+    </title>
+
+</head>
+
+<script>
+
+var encodedMessageNums = new Array() ; // Array that stores the numbers recieved from the keys 
+var index = 0 ; // Goes through the index of ther array 
+
+$(document).ready(function(){
+    $('.phoneKeys').click(function(){
+        var phoneKeyId = $(this).attr('id');
+        var keyNum = phoneKeyId.slice(10,11);
+        encodedMessageNums[index] = keyNum ;
+        index ++ ; 
+        $('.answer1').val($('.answer1').val() + keyNum);
+    });
+});
+// Function that takes in input from the keys 
+
+</script>
+
+<body>
+
+    <video loop muted autoplay id='loginVideo'>
+         <source src='indexPage.mp4' type='video/mp4'> <!--- Credits to Videvo -->
+    </video> 
+
+    <form method="POST" action="processPuzzle.php">
+
+            <input name='puzzleAnswer' type= 'text' class= 'answer1'>
+            <label class='answer'><b>Your Answer? </b></label>
+           <input type="submit" class="submitAnswerB" value="SUBMIT">
+        
+    </form>
+
+    <div class = 'block1' ><p id='puzzle1' name='puzzle1'>
+            <img id = 'phonePiece1' class='phoneKeys' src='PhoneDigits/Digit1.jpg'>
+            <img id = 'phonePiece2' class='phoneKeys' src='PhoneDigits/Digit2.jpg'>
+            <img id = 'phonePiece3' class='phoneKeys' src='PhoneDigits/Digit3.jpg'><br>
+            <img id = 'phonePiece4' class='phoneKeys' src='PhoneDigits/Digit4.jpg'>
+            <img id = 'phonePiece5' class='phoneKeys' src='PhoneDigits/Digit5.jpg'>
+            <img id = 'phonePiece6' class='phoneKeys' src='PhoneDigits/Digit6.jpg'><br>
+            <img id = 'phonePiece7' class='phoneKeys' src='PhoneDigits/Digit7.jpg'>
+            <img id = 'phonePiece8' class='phoneKeys' src='PhoneDigits/Digit8.jpg'>
+            <img id = 'phonePiece9' class='phoneKeys' src='PhoneDigits/Digit9.jpg'>
+    </div> 
+
+    <label id='answer2'><b> Cold, lifeless, she approaches  </b></label>
+    <!--- Block for puzzles -->
+
+</body>
+
+</html>

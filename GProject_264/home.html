@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+
+<html>
+
+    <script src='http://use.edgefonts.net/de-walpergens-pica.js'></script>
+    <!----Imports font style-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!----Imports JQuery functions-->
+
+    <script>
+
+    $SignIn = 
+    "<div class='formGroup'><input name='username' type='text' class='el_form' placeholder='USERNAME' ></div>"+
+    "<div class='formGroup'><input name='password' type='password' class='el_form' placeholder='PASSWORD' ></div>"+
+    "<br><div class='formGroup'><input name='submitB' class='btn' type='submit' value='SIGN IN'></div>";
+    //Tags that enable sign in for the user 
+
+    $SignUp = "<div class='formGroup'><input name='username' type='text' class='el_form' placeholder='USERNAME' ></div>"+
+    "<div class='formGroup'><input name='email' type='email' class='el_form' placeholder='EMAIL' ></div>"+
+    "<div class='formGroup'><input name='password' type='password' class='el_form' placeholder='PASSWORD' ></div>"+
+    "<div class='formGroup'><input name='retypepass' type='password' class='el_form' placeholder='RETYPE PASSWORD' ></div>"
+    +"<div class='formGroup'><input name='securityCode' type='password' class='el_form' placeholder='SECURITY CODE' ></div>"+
+    "<br><div class='formGroup'><button class='btn' name= 'signInB' type='button'>SIGN IN</button></div>";
+    //Tags that enable sign up for the user 
+
+    $loginHelp = "<div class='formGroup'><input name='securityCode' type='password' class='el_form' placeholder='SECURITY CODE' ></div>"+
+    "<br><div class='formGroup'><input name='submitB' class='btn' type='submit' value='SUBMIT'></div>" ; 
+     //Tags that enable password recovery help for the user 
+    
+    $(document).ready(function(){
+
+        $('.backB').hide();
+        $("#welcome").hide();
+        $(".helpLogin").hide();
+
+        $(".btn2").click(function(){
+            $(".loginForm").empty();
+            $(".loginForm").append($SignIn);
+            $(".loginForm").attr('action','userLogin.php');
+            $(".btn2").hide();
+            $('.backB').show();
+            $('#creep').hide();
+            $(".helpLogin").show();
+            $("#welcome").show();
+        });
+
+        $(".backB").click(function(){
+            $(".helpLogin").hide();
+            $(".loginForm").empty();
+            $(".loginForm").attr('action','userSignup.php');
+            $(".loginForm").append($SignUp);
+            $('.backB').hide();
+            $(".btn2").show();
+            $('#creep').show();
+            $("#welcome").hide();
+        });
+
+        $(".helpLogin").click(function(){
+            $(".helpLogin").hide();
+            $(".loginForm").empty();
+            $(".loginForm").attr('action','userLogin.php');
+            $(".loginForm").append($loginHelp);
+            $(".backB").show();
+        });
+
+    });
+
+    </script>
+
+<style>
+
+::placeholder {
+  color:aliceblue;
+  font-size: 15px
+}
+
+#loginVideo{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+#creep{
+    position: absolute ; 
+    width: 125px;
+    height: 125px;
+    border-radius: 50% ;
+    left: 43vw ; 
+    top: 20vh ; 
+    border: 5px azure outset ; 
+}
+
+#welcome{
+    position: absolute ; 
+    width: 125px;
+    height: 125px;
+    border-radius: 50% ;
+    left: 43vw ; 
+    top: 20vh ; 
+    border: 5px azure outset ;
+}
+
+.loginForm{
+    position: relative ; 
+    left: 35vw ; 
+    top: 33vh ; 
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.el_form{
+    border-radius: 5px ; 
+    display: block ; 
+    padding: 20px;
+    font-family:de-walpergens-pica ;
+    border:2px black solid; 
+    outline: 0 ; 
+    background: black;
+    opacity: 0.9;
+    width:21%;
+    font-size: 15px;
+    color: azure;
+}
+
+.btn{
+    border-radius: 5px ; 
+    display: block ; 
+    padding: 20px;
+    font-family:de-walpergens-pica ;
+    width:24.2% ;  
+    font-size: 16px;
+    background:azure ; 
+    color: black;
+}
+
+.btn2,.backB{
+    width:10% ;  
+    left: 85vw ;
+    top:2vh ;
+    position: absolute ; 
+    padding: 1px ;
+    border-radius: 5px ; 
+    display: block ; 
+    font-family:de-walpergens-pica ;
+    font-size: 16px;
+    background:azure ;
+    color: black;
+}
+
+.helpLogin{
+    position: relative;
+    left: 35vw ;
+    top:32vh ;
+}
+
+</style>
+
+<head>
+   
+       <title> 
+           KuchisakeOnna
+       </title>
+
+</head>
+
+<body>
+
+    <video loop muted autoplay id='loginVideo'>
+     <source src='indexPage.mp4' type='video/mp4'> <!--- Credits to Videvo -->
+    </video>
+
+    <div name="SignUp"><button class="btn2" type="button">SIGN IN</button></div> <!-- Sign in button redirect -->
+    <button class='backB' type="button">BACK</button> <!--- Back button to take user to sign up page -->
+
+    <img id='creep' src="LoginCreeper.gif" alt="N/A"> <br><!--- Image for creepy eye -->
+    <img id='welcome' src="Welcome.gif" > <br><!--- Image for welcoming face -->
+
+    <form method='POST' action= 'userSignup.php' class="loginForm" name="loginForm"> <!--Form page for user login/signup-->
+        
+        <div class='formGroup'><input name='username' type='text' class='el_form' placeholder='USERNAME' ></div>
+        <div class='formGroup'><input name='email' type='email' class='el_form' placeholder='EMAIL' ></div>
+        <div class='formGroup'><input name='password' type='password' class='el_form' placeholder='PASSWORD' ></div>
+        <div class='formGroup'><input name='retypepass' type='password' class='el_form' placeholder='RETYPE PASSWORD' ></div>
+        <div class='formGroup'><input name='securityCode' type='password' class='el_form' placeholder='SECURITY CODE' ></div>
+        <br><div class='formGroup'><input name=submitB class="btn" type="submit" value='SUBMIT'></div>
+
+    </form>
+
+    <br><div class='helpLogin'><label class = 'passHelp' style='font-family:de-walpergens-pica ;color:azure;font-size:18px'>Forgot Password?</label></div>
+    <!--Help user incase they forget password-->
+</body>
+
+</html>
+
+

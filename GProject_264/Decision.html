@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+
+<html>
+
+    <script src='https://fonts.googleapis.com/css?family=Denk+One'></script>
+    <script src='http://use.edgefonts.net/de-walpergens-pica.js'></script>
+    <!----Imports font style-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='http://use.edgefonts.net/astloch.js'></script>
+    <!----Imports JQuery functions-->
+
+<style>
+
+#loginVideo{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.block1{
+    position: absolute ; 
+    border: 2px transparent solid ;
+    width: 600px ; 
+    height: 500px ; 
+    left: 28vw ; 
+    top: 12vh ; 
+}
+
+.btn{
+    position: absolute;
+    border-radius: 5px ; 
+    display: block ; 
+    padding: 20px;
+    left: 500px ; 
+    font-family:de-walpergens-pica ;
+    width:30% ;  
+    font-size: 16px;
+    background:azure ; 
+    color: black;
+}
+
+.answer{
+    position: relative; 
+    color: transparent ; 
+    text-shadow: 0 0 1px rgba(255, 0, 0, 0.788);
+    font-family: 'Denk One', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2em;
+    margin-left: -180px;
+    animation-name: horror;
+    animation-duration: 5s;
+    animation-iteration-count: infinite ;
+}
+
+#puzzle1{
+    font-family: 'Denk One', sans-serif; 
+    position: relative;
+    letter-spacing: 4px;
+    font-size: 40px;
+    color: azure; ;
+    text-shadow: 1px 1px 2px black ; 
+    
+}
+
+@keyframes horror{ /*Animation effect for text*/ 
+
+    0% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.1);; left: 40vw; top: 12.5vh;}
+    5% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.2);; left: 48vw; top: 12.5vh;}
+    10% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);; left: 48vw; top: 13vh;}
+    15% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.4);; left: 49vw; top: 13.5vh;}
+    16% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);; left: 48vw; top: 12vh;}
+    17% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.6);; left: 48vw; top: 12.5vh;}
+    18% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.7);; left: 49vw; top: 12.56vh;}
+    19% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);; left: 40vw; top: 12.5vh;}
+    20% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.9);; left: 49vw; top: 13vh;}
+    25% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);; left: 48vw; top: 13.5vh;}
+    30% {text-shadow: 0 0 10px rgba(255, 0, 0, 1);; left: 49vw; top: 12vh;}
+    34% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.6);; left: 40vw; top: 12.5vh;}
+    35% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);; left: 47vw; top: 12.5vh;}
+    40% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.4);; left: 46vw; top: 12.5vh;}
+    50% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.8);; left: 46vw; top: 13vh;}
+    55% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.2);; left: 47vw; top: 13vh;}
+    56% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.1);; left: 47vw; top: 13.5vh;}
+    57% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.2);; left: 48vw; top: 12vh;}
+    60% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.4);; left: 49vw; top: 12vh;}
+    65% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);; left: 49vw; top: 12vh;}
+    70% {text-shadow: 0 0 5px rgba(255, 0, 0, 1);; left: 49.5vw; top: 13vh;}
+    80% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.7);; left: 40vw; top: 13.5vh;}
+    90% {text-shadow: 0 0 5px rgba(255, 0, 0, 0.6);; left: 48vw; top: 12vh;}
+    90% {text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);; left: 47vw; top: 12vh;}
+    100% {text-shadow: 0 0 10px rgba(255, 0, 0, 1);; left: 47vw; top: 12.5vh;}
+    
+}
+
+</style>
+
+<head>
+    
+    <title>
+
+    </title>
+
+</head>
+
+<body>
+
+    <video loop muted autoplay id='loginVideo'>
+         <source src='indexPage.mp4' type='video/mp4'> <!--- Credits to Videvo -->
+    </video> 
+
+    <div class="moveAnimation">
+    <label class='answer'><b>Your Answer? </b></label></div>
+        
+        <form action="Decision.php" method='post'>
+        <div name='decision1'></div>
+        <input name='Yes' type="submit" class="btn" type="button" style='top: 300px' value="YES">
+        <br>
+        <input name='No' type="submit" class="btn" type="button" style='top: 400px' value="NO">
+        <br>
+        <input name='Maybe' type="submit" class="btn" type="button" style='top: 500px' value="MAYBE">
+        </form>
+    <!--- Block for puzzles -->
+
+</body>
+
+</html>
