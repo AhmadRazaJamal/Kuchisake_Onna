@@ -2,6 +2,7 @@
 
 <p align="center"><img width=60.5% src="https://github.com/AhmadRazaJamal/Kuchisake_Onna/blob/master/project_name.png"></p>
 
+![HTML](https://img.shields.io/badge/HTML-5-blue)
 ____
 
 ## About
