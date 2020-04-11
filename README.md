@@ -51,5 +51,5 @@ Barcode Decode
 
 ## About 
 
-Created by : *Ahmad Raza Jamal & Paul Zapote * 
-COSC - 264 [ Introduction to Web Development & Databases ] 2018 
+Created by : *Ahmad Raza Jamal & Paul Zapote* 
+COSC-264 [ Introduction to Web Development & Databases ] | 2018 
