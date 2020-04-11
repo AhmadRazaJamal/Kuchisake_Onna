@@ -22,4 +22,10 @@ An online web based game having multiple unique puzzles requiring different mech
 ### Puzzle 1  
 Morse Code 
 
-<img src="https://github.com/AhmadRazaJamal/Kuchisake_Onna/blob/master/GP%20Screenshots/Screen%20Shot%202019-04-02%20at%2010.04.36%20PM.png" width=40%>
+<img src="https://github.com/AhmadRazaJamal/Kuchisake_Onna/blob/master/GP%20Screenshots/Screen%20Shot%202019-04-02%20at%2010.04.36%20PM.png" width=70%>
+
+### Puzzle 2  
+Image pieces arrangement 
+
+<img src="https://github.com/AhmadRazaJamal/Kuchisake_Onna/blob/master/GP%20Screenshots/Screen%20Shot%202019-04-02%20at%2010.04.36%20PM.png" width=70%>
+
