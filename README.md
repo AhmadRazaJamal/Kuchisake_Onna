@@ -8,8 +8,7 @@ ____
 
 An online web based game having multiple unique puzzles requiring different mechanism of solving. Each puzzle unfolding a part of the story, as the game follows the story of a Japanese folk tale in which people used to go missing as they would be devoured by Kuchisake Onna in the dim streets of Japan. The game implements challrnging puzzles which requires the players to think about each one differently and interpret a solution.
 
-____
+## Features 
 
-## Features : 
-
-. User Login
+* User Signup *Enables user to create an account and store progress*
+* User Login  *Existing user can login and continue his progress* 
