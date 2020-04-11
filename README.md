@@ -7,6 +7,7 @@
   <img src = "https://img.shields.io/badge/CSS-3-red"> 
     <img src = "https://img.shields.io/badge/PHP-7.2-purple">
       <img src = "https://img.shields.io/badge/JavaScript-1.8-lightgrey">
+         <img src = "https://img.shields.io/badge/JQuey-3.4-orange">
 </p>
 
 _____
