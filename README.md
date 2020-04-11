@@ -11,5 +11,5 @@ An online web based game having multiple unique puzzles requiring different mech
 ## Features 
 
 * User Signup 
-- Enables user to create an account and store progress*
+- Enables user to create an account and store progress
 * User Login  *Existing user can login and continue his progress* 
