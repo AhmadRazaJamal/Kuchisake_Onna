@@ -58,7 +58,7 @@ Barcode Decode
 
 ## Running the website and Data Management 
 
-The website runs on a local host at the moment but would be able to run online with small tweaks. It uses *MySQL* to store users and process puzzle queries. The project was run on local host using [*MAMP*] (https://www.mamp.info/en/mac/) software and [*myPHPAdmin*] (https://www.phpmyadmin.net) to configure the databases.
+The website runs on a local host at the moment but would be able to run online with small tweaks. It uses *MySQL* to store users and process puzzle queries. The project was run on local host using [*MAMP*] (https://www.mamp.info/en/mac/) software and [myPHPAdmin](https://www.phpmyadmin.net) to configure the databases.
 
 ## About 
 
