@@ -17,6 +17,10 @@ An online web based game having multiple unique puzzles requiring different mech
 * Progress saving 
 * Multiple decision paths [ *User has to make decisions along the way which will decide the story ending* ] 
 
+## Login and SignUp Pages 
+
+<img src="https://github.com/AhmadRazaJamal/Kuchisake_Onna/blob/master/GP%20Screenshots/signInsignUp.gif" width=70%>
+
 ## Puzzles 
 
 ### Puzzle 1  
@@ -45,3 +49,7 @@ Barcode Decode
 <img src="https://github.com/AhmadRazaJamal/Kuchisake_Onna/blob/master/GP%20Screenshots/Screen%20Shot%202019-04-02%20at%2010.09.25%20PM.png" width=70%>
 
 
+## About 
+
+Created by : *Ahmad Raza Jamal & Paul Zapote * 
+COSC - 264 [ Introduction to Web Development & Databases ] 2018 
