@@ -8,7 +8,8 @@
     <img src = "https://img.shields.io/badge/PHP-7.2-purple">
       <img src = "https://img.shields.io/badge/JavaScript-1.8-lightgrey">
 </p>
-____
+
+_____
 
 ## About
 
