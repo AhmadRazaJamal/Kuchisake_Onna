@@ -10,6 +10,9 @@ An online web based game having multiple unique puzzles requiring different mech
 
 ## Features 
 
-* User Signup 
-- Enables user to create an account and store progress
-* User Login  *Existing user can login and continue his progress* 
+* User Signup [ *Enables user to create an account and store progress* ]
+* User Login  [ *Existing user can login and continue his progress* ] 
+* Password Retrieval [* User can retrieve his password based on a special security code*]
+* 5 unique puzzles 
+* Progress saving 
+* Multiple decision paths [ User has to make decisions along the way which will decide the story ending ] 
