@@ -3,7 +3,7 @@
 <p align="center"><img width=60.5% src="https://github.com/AhmadRazaJamal/Kuchisake_Onna/blob/master/project_name.png"></p>
 
 <p align="center">
-![HTML](https://img.shields.io/badge/HTML-5-blue)
+<img src = "https://img.shields.io/badge/HTML-5-blue"> 
 </p>
 ____
 
