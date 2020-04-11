@@ -27,5 +27,21 @@ Morse Code
 ### Puzzle 2  
 Image pieces arrangement 
 
-<img src="https://github.com/AhmadRazaJamal/Kuchisake_Onna/blob/master/GP%20Screenshots/Screen%20Shot%202019-04-02%20at%2010.04.36%20PM.png" width=70%>
+<img src="https://github.com/AhmadRazaJamal/Kuchisake_Onna/blob/master/GP%20Screenshots/puzzle2.gif" width=70%>
+
+### Puzzle 3  
+Dial in code  
+
+<img src="https://github.com/AhmadRazaJamal/Kuchisake_Onna/blob/master/GP%20Screenshots/Screen%20Shot%202019-04-02%20at%2010.08.00%20PM.png" width=70%>
+
+### Puzzle 4  
+Audio Decode  
+
+<img src="https://github.com/AhmadRazaJamal/Kuchisake_Onna/blob/master/GP%20Screenshots/Screen%20Shot%202019-04-02%20at%2010.08.14%20PM.png" width=70%>
+
+### Puzzle 5  
+Barcode Decode  
+
+<img src="https://github.com/AhmadRazaJamal/Kuchisake_Onna/blob/master/GP%20Screenshots/Screen%20Shot%202019-04-02%20at%2010.09.25%20PM.png" width=70%>
+
 
