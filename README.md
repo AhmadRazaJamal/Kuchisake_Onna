@@ -16,3 +16,6 @@ An online web based game having multiple unique puzzles requiring different mech
 * 5 unique puzzles 
 * Progress saving 
 * Multiple decision paths [ *User has to make decisions along the way which will decide the story ending* ] 
+
+## Puzzles 
+
