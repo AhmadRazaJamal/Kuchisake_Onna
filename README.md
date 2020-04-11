@@ -1,4 +1,3 @@
 # Kuchisake Onna Project
-...
 
 ### About
