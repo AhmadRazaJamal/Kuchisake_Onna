@@ -44,7 +44,7 @@ An online web based game having multiple unique puzzles requiring different mech
 ### Puzzle 3  
 *Dial-in code* 
 
-<img src="https://github.com/AhmadRazaJamal/Kuchisake_Onna/blob/master/GP%20Screenshots/Screen%20Shot%202019-04-02%20at%2010.08.00%20PM.png" width=100%>
+<img src="https://github.com/AhmadRazaJamal/Kuchisake_Onna/blob/master/GP%20Screenshots/Screen%20Shot%202020-04-11%20at%207.03.52%20PM.png" width=100%>
 
 ### Puzzle 4  
 *Audio Decode*  
