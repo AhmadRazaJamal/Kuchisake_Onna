@@ -63,4 +63,4 @@ The website runs on a local host at the moment but would be able to run online w
 ## About 
 
 Created by : *Ahmad Raza Jamal & Paul Zapote* 
-| **COSC-264 [ Introduction to Web Development & Databases ]** | 2018 
+| **COSC-264 [ Introduction to Web Development & Databases ]** | 2019 
